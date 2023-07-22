@@ -1,0 +1,18 @@
+{
+  "name": "@cyrilolanolan/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier configuration for formatting code. This combines defaults with personal style choices to write clean, readable, and consistent codes across all projects.",
+  "author": "Cyril Olanolan",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "configuration"
+  ],
+  "main": "index.json",
+  "peerDependencies": {
+    "prettier": ">=2.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
