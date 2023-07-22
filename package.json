@@ -1,6 +1,6 @@
 {
   "name": "@cyrilolanolan/configurations",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Monorepo for all of my personal configurations shared across different projects",
   "author": "Cyril Olanolan",
   "license": "MIT",
@@ -12,6 +12,9 @@
     "javascript"
   ],
   "scripts": {
+    "changeset": "changeset",
+    "prerelease": "changeset version",
+    "release": "changeset publish",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
