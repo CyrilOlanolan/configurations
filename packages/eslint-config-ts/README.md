@@ -10,10 +10,13 @@ This configuration encourages best practices by using a set of rules for consist
 ## Installation
 
 1. Install the package with its peer dependencies:
+
    ```bash
    npm i -D @cyrilolanolan/eslint-config-ts typescript eslint prettier
    ```
+
 2. Extend this configuration in your [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
+
    ```json
    {
      "eslintConfig": {
@@ -78,3 +81,22 @@ ESLint announced a new configuration system, and from version `8.21.0`, the old 
 This configuration uses the **_legacy format_** (`.eslintrc*`) as of the moment and **_will be migrating_** to the new format once major frameworks ship out with the new one by default.
 
 Good thing, ESLint has provided a package to continue using eslintrc-style shared configs and settings within a flat config file. In the meantime, here's how you can use this configuration if you're using the new format: [@eslint/eslintrc](https://www.npmjs.com/package/@eslint/eslintrc).
+
+### Errors when using `@typescript-eslint`
+
+Sometimes, errors with using `@typescript-eslint` are caused by version mismatch with other configuration files installed.
+
+There is a known issue with `eslint-config-next` causing the linting to fail. This is because the package is using the v5 version of `@typescript-eslint`. Since this package is in v6, there are a lot breaking changes.
+
+As a temporary fix, you can add an `overrides` key in your `package.json` and use the **v6** version of the plugin.
+
+```json
+{
+  "overrides": {
+    "eslint-config-next": {
+      "@typescript-eslint/eslint-plugin": "6.1.0",
+      "@typescript-eslint/parser": "6.1.0"
+    }
+  }
+}
+```

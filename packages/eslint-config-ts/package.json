@@ -13,6 +13,15 @@
     "react",
     "prettier"
   ],
+  "homepage": "https://github.com/CyrilOlanolan/configurations/tree/main/packages/eslint-config-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CyrilOlanolan/configurations.git",
+    "directory": "packages/eslint-config-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/CyrilOlanolan/configurations/issues"
+  },
   "main": "src/index.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "6.1.0",
@@ -35,5 +44,8 @@
     "react": {
       "optional": true
     }
+  },
+  "engines": {
+    "node": ">=16"
   }
 }

@@ -22,8 +22,7 @@ This combines defaults with personal style choices to write clean, readable, and
 
    module.exports = {
      ...sharedConfig,
-     // extend or overwrite options
-     semi: false,
+     // extend or overwrite options here
    };
    ```
 

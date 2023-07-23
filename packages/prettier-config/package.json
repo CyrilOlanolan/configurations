@@ -8,6 +8,15 @@
     "prettier",
     "configuration"
   ],
+  "homepage": "https://github.com/CyrilOlanolan/configurations/tree/main/packages/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CyrilOlanolan/configurations.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/CyrilOlanolan/configurations/issues"
+  },
   "main": "index.json",
   "peerDependencies": {
     "prettier": ">=2.0.0"
