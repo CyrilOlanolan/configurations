@@ -22,12 +22,13 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.6.7",
-    "@commitlint/config-conventional": "17.6.7",
-    "eslint": "8.45.0",
+    "@changesets/cli": "2.27.1",
+    "@commitlint/cli": "18.4.4",
+    "@commitlint/config-conventional": "18.4.4",
+    "eslint": "8.56.0",
     "husky": "8.0.3",
-    "lint-staged": "13.2.3",
-    "prettier": "3.0.0"
+    "lint-staged": "15.2.0",
+    "prettier": "3.1.1"
   },
   "lint-staged": {
     "{**/*,*}.{json,css,md}": [
@@ -40,8 +41,5 @@
   },
   "engines": {
     "node": ">=16"
-  },
-  "dependencies": {
-    "@changesets/cli": "2.26.2"
   }
 }
