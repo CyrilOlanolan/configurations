@@ -1,6 +1,6 @@
 {
   "name": "@cyrilolanolan/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Prettier configuration for formatting code. This combines defaults with personal style choices to write clean, readable, and consistent codes across all projects.",
   "author": "Cyril Olanolan",
   "license": "MIT",

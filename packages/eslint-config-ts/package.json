@@ -1,6 +1,6 @@
 {
   "name": "@cyrilolanolan/eslint-config-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint configuration for TypeScript projects. This configuration encourages best practices by using a set of rules for consistent and high-quality coding across all projects.",
   "author": "Cyril Olanolan",
   "license": "MIT",
