@@ -15,7 +15,18 @@ This configuration encourages best practices by using a set of rules for consist
    npm i -D @cyrilolanolan/eslint-config-ts typescript eslint prettier
    ```
 
-2. Extend this configuration in your [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
+2. Extend the configuration.
+
+   In your [ESLint Configuration](https://eslint.org/docs/user-guide/configuring) (preferred):
+
+   ```js
+   module.exports = {
+     extends: ['@cyrilolanolan/ts'],
+     // other configurations here
+   };
+   ```
+
+   or add `eslintConfig` in your `package.json`:
 
    ```json
    {
