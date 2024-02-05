@@ -26,9 +26,9 @@
     "@commitlint/cli": "18.6.0",
     "@commitlint/config-conventional": "18.6.0",
     "eslint": "8.56.0",
-    "husky": "9.0.6",
-    "lint-staged": "15.2.0",
-    "prettier": "3.2.4"
+    "husky": "9.0.10",
+    "lint-staged": "15.2.1",
+    "prettier": "3.2.5"
   },
   "lint-staged": {
     "{**/*,*}.{json,css,md}": [
