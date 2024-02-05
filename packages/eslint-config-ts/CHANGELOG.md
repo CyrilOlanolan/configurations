@@ -1,5 +1,14 @@
 # @cyrilolanolan/eslint-config-ts
 
+## 0.1.2
+
+### Patch Changes
+
+- 0f53626: Upgraded dependencies to latest versions
+- 1d515bd: Updated installation instruction for eslint-config-ts
+- ee70c03: Updated installation instruction for prettier-config
+- a6e61ba: Upgraded dependencies to latest versions
+
 ## 0.1.1
 
 ### Patch Changes
