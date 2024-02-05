@@ -26,7 +26,7 @@ This configuration encourages best practices by using a set of rules for consist
    };
    ```
 
-   or add `eslintConfig` in your `package.json`:
+   or add `eslintConfig` key in your `package.json`:
 
    ```json
    {

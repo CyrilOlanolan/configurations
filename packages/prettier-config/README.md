@@ -32,10 +32,12 @@ This combines defaults with personal style choices to write clean, readable, and
    "@cyrilolanolan/prettier-config"
    ```
 
-   or inside `package.json`:
+   or add `prettier` key inside your `package.json`:
 
    ```json
-   "prettier": "@cyrilolanolan/prettier-config"
+   {
+     "prettier": "@cyrilolanolan/prettier-config"
+   }
    ```
 
 ## Configurations
