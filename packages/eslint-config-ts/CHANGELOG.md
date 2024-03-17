@@ -1,5 +1,17 @@
 # @cyrilolanolan/eslint-config-ts
 
+## 0.1.3
+
+### Patch Changes
+
+- 0dc5e66: Bumped dependencies to latest versions
+- 71d7927: Fixed peerDependencies restrictions
+
+  - Removed upper boundary restriction for TypeScript as this causes unmet peer dependencies
+  - Changed eslint restriction from `<9` to `<9.0.0` because it's not working
+
+- 0dc5e66: Bumped packages and fixed peerDependencies restrictions
+
 ## 0.1.2
 
 ### Patch Changes
