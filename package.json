@@ -19,7 +19,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@changesets/cli": "2.27.1",

@@ -45,4 +45,15 @@ module.exports = {
       { caseSensitive: true, natural: true },
     ],
   },
+  settings: {
+    'import/resolver': {
+      /**
+       * Resolves path aliases in tsconfig.ts
+       */
+      typescript: {
+        alwaysTryTypes: true,
+        project: '.',
+      },
+    },
+  },
 };
