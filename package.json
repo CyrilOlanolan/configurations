@@ -1,6 +1,6 @@
 {
   "name": "@cyrilolanolan/configurations",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Monorepo for all of my personal configurations shared across different projects",
   "author": "Cyril Olanolan",
   "license": "MIT",

@@ -1,5 +1,11 @@
 # @cyrilolanolan/prettier-config
 
+## 0.2.0
+
+### Minor Changes
+
+- 4f4009f: Added eslint-import-resolver-typescript to resolve paths defined in tsconfig
+
 ## 0.1.3
 
 ### Patch Changes
