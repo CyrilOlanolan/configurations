@@ -1,4 +1,4 @@
-# @cyrilolanolan/eslint-config-ts
+# @cyrilolanolan/prettier-config
 
 _[Prettier](https://prettier.io/) configuration for formatting code_
 
