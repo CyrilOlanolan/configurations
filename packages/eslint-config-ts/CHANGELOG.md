@@ -1,5 +1,11 @@
 # @cyrilolanolan/eslint-config-ts
 
+## 0.2.1
+
+### Patch Changes
+
+- 5b0c692: Fix no-restricted-imports accidentally including hidden files
+
 ## 0.2.0
 
 ### Minor Changes
