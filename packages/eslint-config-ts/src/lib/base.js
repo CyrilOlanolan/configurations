@@ -31,7 +31,7 @@ module.exports = {
              *
              * @link https://stackoverflow.com/a/65684336
              */
-            group: ['.*'],
+            group: ['./**', '../**'],
             message: 'Relative imports are not allowed.',
           },
         ],
