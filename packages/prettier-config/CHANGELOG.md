@@ -1,5 +1,11 @@
 # @cyrilolanolan/prettier-config
 
+## 0.2.2
+
+### Patch Changes
+
+- c7cc1a1: Bumped dependencies to latest minor versions
+
 ## 0.2.1
 
 ### Patch Changes
