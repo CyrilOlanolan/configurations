@@ -5,13 +5,15 @@ ESLint configuration for _TypeScript_ projects
 This configuration encourages best practices by using a set of rules for consistent and high-quality coding across all projects.
 
 - ✨ [Prettier](https://prettier.io/) for code formatting
+- ✨ Supports linting for [React](https://reactjs.org/)
+- ✨ Uses [TailwindCSS](https://tailwindcss.com/) for styling
 
 ## Installation
 
 1. Install the package with its peer dependencies:
 
    ```bash
-   npm i -D @cyrilolanolan/eslint-config-ts typescript eslint prettier
+   npm i -D @cyrilolanolan/eslint-config-react-tw tailwindcss eslint prettier
    ```
 
 2. Extend the configuration.
@@ -20,7 +22,7 @@ This configuration encourages best practices by using a set of rules for consist
 
    ```js
    module.exports = {
-     extends: ['@cyrilolanolan/ts'],
+     extends: ['@cyrilolanolan/react-tw'],
      // other configurations here
    };
    ```
@@ -30,7 +32,7 @@ This configuration encourages best practices by using a set of rules for consist
    ```json
    {
      "eslintConfig": {
-       "extends": "@cyrilolanolan/ts"
+       "extends": "@cyrilolanolan/react-tw"
      }
    }
    ```
@@ -39,45 +41,19 @@ This configuration encourages best practices by using a set of rules for consist
 
 This package uses the following recommended configurations:
 
-- ✔️ [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)/eslint-recommended
+- ✔️ [tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)/recommended
 - ✔️ [prettier](https://github.com/prettier/eslint-plugin-prettier)/recommended
-- ✔️ [import](https://github.com/import-js/eslint-plugin-import)/recommended
+- ✔️ [jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)/recommended
 
-### Base
+### React
 
-- `no-console` - disallow the use of console
-- `linebreak-style` - enforce consistent linebreak style
-- `id-length` - enforce minimum and maximum identifier lengths
-- `no-restricted-imports` - relative imports are not allowed
-- `unused-imports/no-unused-imports` - disallow unused imports
-- `import/no-cycle` - ensures that there is no resolvable path back to this module via its dependencies
-- `import/no-extraneous-dependencies` - forbid the import of external modules that are not declared in package.json
-- `import/no-duplicates` - reports if a resolved path is imported more than once
-- `import/no-self-import` - forbid a module from importing itself
-- `simple-import-sort/imports` - sorts the import statements
+- `react/self-closing-comp` - enforce self-closing component when there's no children
 
-### TypeScript
+### TailwindCSS
 
-- `@typescript-eslint/consistent-type-imports` - enforce consistent usage of type imports
-- `@typescript-eslint/no-unnecessary-condition` - disallow conditionals where the type is always truthy or falsy
-- `typescript-sort-keys/interface` - sorts interface keys in ascending order
-- `typescript-sort-keys/string-enum` - typescript-sort-keys/string-enum
+- `tailwindcss/no-custom-classname` - disallow custom classes not defined in TailwindCSS configuration
 
 ## ⚠️ Gotchas
-
-### Non standard `tsconfig.json` paths
-
-If you use a TypeScript configuration file other than the default (`tsconfig.json` under the project's root), you need to specify its path:
-
-```json
-{
-  "eslintConfig": {
-    "parserOptions": {
-      "project": "./apps/ts-app/tsconfig.dev.json"
-    }
-  }
-}
-```
 
 ### New ESLint configuration system (`eslint.config.js`)
 

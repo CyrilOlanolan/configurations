@@ -1,0 +1,39 @@
+{
+  "name": "@cyrilolanolan/eslint-config-react-tw",
+  "version": "0.2.1",
+  "description": "ESLint configuration for React with TailwindCSS projects. This configuration encourages best practices by using a set of rules for consistent and high-quality coding across all projects.",
+  "author": "Cyril Olanolan",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "configuration",
+    "react",
+    "prettier"
+  ],
+  "homepage": "https://github.com/CyrilOlanolan/configurations/tree/main/packages/eslint-config-react-tw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CyrilOlanolan/configurations.git",
+    "directory": "packages/eslint-config-react-tw"
+  },
+  "bugs": {
+    "url": "https://github.com/CyrilOlanolan/configurations/issues"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-react": "7.34.1",
+    "eslint-plugin-tailwindcss": "3.17.4"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0 <9.0.0",
+    "prettier": ">=2.0.0",
+    "react": ">=18.0.0",
+    "tailwindcss": ">=3.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
