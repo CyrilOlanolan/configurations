@@ -1,6 +1,6 @@
 # @cyrilolanolan/eslint-config-ts
 
-_ESLint configuration for TypeScript projects_
+ESLint configuration for _TypeScript_ projects
 
 This configuration encourages best practices by using a set of rules for consistent and high-quality coding across all projects.
 
@@ -69,7 +69,7 @@ This package uses the following recommended configurations:
 
 - `react/self-closing-comp` - enforce self-closing component when there's no children
 
-## ⚠️ Gotcha!
+## ⚠️ Gotchas
 
 ### Non standard `tsconfig.json` paths
 

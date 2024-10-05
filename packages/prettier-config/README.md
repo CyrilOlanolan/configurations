@@ -1,6 +1,6 @@
 # @cyrilolanolan/prettier-config
 
-_[Prettier](https://prettier.io/) configuration for formatting code_
+_[Prettier](https://prettier.io/)_ configuration for formatting code
 
 This combines defaults with personal style choices to write clean, readable, and consistent codes across all projects.
 
@@ -50,7 +50,7 @@ This package extends the handful default [Prettier Options](https://prettier.io/
 | tabWidth (for \*.py) | 4     |
 | trailingComma        | "es5" |
 
-## ⚠️ Gotcha!
+## ⚠️ Gotchas
 
 ### Extending via `package.json` or any `JSON` config
 
